@@ -1,4 +1,3 @@
-import { BellIcon, SearchIcon } from "@chakra-ui/icons";
 import { useState } from "react";
 import "./Style.css";
 import { Box, Typography } from "@mui/material";

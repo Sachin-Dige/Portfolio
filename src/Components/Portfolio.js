@@ -1,12 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import "../App.css";
 import { Box, Button, IconButton, Link, Typography } from "@mui/material";
-import { Facebook, Instagram, Twitter, LinkedIn } from "@mui/icons-material";
+import { GitHub, Instagram, Twitter, LinkedIn } from "@mui/icons-material";
 import { TypeAnimation } from "react-type-animation";
 import bg from "../Assets/Images/bg.jpg";
 import Slider from "./Slider";
 import Contact from "./Contact";
-import Resume from "../Assets/PDF/resume.pdf";
+import Resume from "../Assets/PDF/Resume (Sachin Dige).pdf";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
@@ -56,7 +56,7 @@ const Portfolio = () => {
               width="90%"
             >
               <Box>
-                <Link href="">
+                <Link href="https://github.com/Sachin-Dige">
                   <IconButton
                     sx={{
                       color: "white",
@@ -65,10 +65,10 @@ const Portfolio = () => {
                       },
                     }}
                   >
-                    <Facebook />
+                    <GitHub />
                   </IconButton>
                 </Link>
-                <Link href="">
+                <Link href="https://www.linkedin.com/in/sachin-dige-725265263/">
                   <IconButton
                     sx={{
                       color: "white",
@@ -77,7 +77,7 @@ const Portfolio = () => {
                       },
                     }}
                   >
-                    <Instagram />
+                    <LinkedIn />
                   </IconButton>
                 </Link>
                 <Link href="">
@@ -101,7 +101,7 @@ const Portfolio = () => {
                       },
                     }}
                   >
-                    <LinkedIn />
+                    <Instagram />
                   </IconButton>
                 </Link>
               </Box>
@@ -119,7 +119,7 @@ const Portfolio = () => {
                   Hello, I'm{" "}
                   <span
                     className="heighlighted-text"
-                    style={{ color: "#FF5F1F"}}
+                    style={{ color: "#FF5F1F" }}
                   >
                     Sachin Dige
                   </span>
@@ -174,23 +174,31 @@ const Portfolio = () => {
                   justifyContent: { lg: "center", xs: "center" },
                 }}
               >
-                <Button
-                  className="btn primary-btn"
-                  sx={{
-                    borderRadius: "50px",
-                    background: "#1f2235",
-                    border: "2px solid linen",
-                    fontSize: { lg: "15px", xs: "12.8px" },
-                    color: "white",
-                    padding: { lg: "14px 0", xs: "11px 0" },
-                    width: { lg: "160px", xs: "120px" },
-                    cursor: "pointer",
-                    transition: "0.2s",
-                    fontWeight: "700",
-                  }}
+                <Link
+                  href={"https://www.linkedin.com/in/sachin-dige-725265263/"}
+                  sx={{ textDecoration: "none" }}
                 >
-                  Hire Me
-                </Button>
+                  <Button
+                    className="btn primary-btn"
+                    sx={{
+                      borderRadius: "50px",
+                      background: "#1f2235",
+                      border: "2px solid linen",
+                      fontSize: { lg: "15px", xs: "12.8px" },
+                      color: "white",
+                      padding: { lg: "14px 0", xs: "11px 0" },
+                      width: { lg: "160px", xs: "120px" },
+                      cursor: "pointer",
+                      transition: "0.2s",
+                      fontWeight: "700",
+                      "&:hover": {
+                        border: "2px solid#FF5824",
+                      },
+                    }}
+                  >
+                    Hire Me
+                  </Button>
+                </Link>
                 <Link
                   href={Resume}
                   download="Resume(SachinDige).pdf"

@@ -38,14 +38,14 @@ const Footer = () => {
                     <LinkedIn />
                   </IconButton>
                 </Link>
-            <Link href="" target="_blank">
+            <Link href="">
               <IconButton sx={{color:"white",fontSize:"48px",'&:hover': {
             transform: "scale(1.5)",
           }}}>
                 <Twitter />
               </IconButton>
             </Link>
-            <Link href="sachin.code45@gmail.com" target="_blank">
+            <Link href="">
               <IconButton sx={{color:"white",fontSize:"48px",'&:hover': {
             transform: "scale(1.5)",
           }}}>

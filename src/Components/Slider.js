@@ -72,7 +72,7 @@ const Slider = () => {
               borderRadius: "19px",
             }}
           />
-          <a href="https://dsk-chat-app.netlify.app/" target="_blank" rel="noopener">ZenWe</a>
+          <a href="https://dsk-chat-app.netlify.app/" target="_blank" rel="noreferrer">ZenWe</a>
         </SwiperSlide>
         <SwiperSlide style={{ textAlign: "center" }}>
           <Box
@@ -85,7 +85,7 @@ const Slider = () => {
               borderRadius: "19px",
             }}
           />
-          <a href="https://zenwe.netlify.app/" target="_blank" rel="noopener">
+          <a href="https://zenwe.netlify.app/" target="_blank" rel="noreferrer">
             ZenWe
           </a>
         </SwiperSlide>
@@ -100,7 +100,7 @@ const Slider = () => {
               borderRadius: "19px",
             }}
           />
-          <a href="https://zenwe.netlify.app/" target="_blank" rel="noopener">ZenWe</a>
+          <a href="https://zenwe.netlify.app/" target="_blank" rel="noreferrer">ZenWe</a>
         </SwiperSlide>
         <SwiperSlide style={{ textAlign: "center" }}>
           <Box
@@ -113,7 +113,7 @@ const Slider = () => {
               borderRadius: "19px",
             }}
           />
-          <a href="https://zenwe.netlify.app/" target="_blank" rel="noopener">ZenWe</a>
+          <a href="https://zenwe.netlify.app/" target="_blank" rel="noreferrer">ZenWe</a>
         </SwiperSlide>
       </Swiper>
     </Box>

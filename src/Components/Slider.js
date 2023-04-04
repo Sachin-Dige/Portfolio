@@ -28,12 +28,6 @@ const Projectdata = [
 const Slider = () => {
   const [selected, setSelected] = useState(0);
   let Plength = Projectdata.length
-  // const form = useRef();
-
-const slider = () => {
-      selected===0?setSelected(Plength-1):setSelected((prev)=>prev-1)
-      selected===Plength-1?setSelected(0):setSelected((succ)=>succ+1)
-    }
   return (
     <Box
       sx={{
@@ -78,7 +72,7 @@ const slider = () => {
               borderRadius: "19px",
             }}
           />
-          <a href="https://dsk-chat-app.netlify.app/" target="_blank">ZenWe</a>
+          <a href="https://dsk-chat-app.netlify.app/" target="_blank" rel="noopener">ZenWe</a>
         </SwiperSlide>
         <SwiperSlide style={{ textAlign: "center" }}>
           <Box
@@ -91,7 +85,7 @@ const slider = () => {
               borderRadius: "19px",
             }}
           />
-          <a href="https://zenwe.netlify.app/" target="_blank">
+          <a href="https://zenwe.netlify.app/" target="_blank" rel="noopener">
             ZenWe
           </a>
         </SwiperSlide>
@@ -106,7 +100,7 @@ const slider = () => {
               borderRadius: "19px",
             }}
           />
-          <a href="https://zenwe.netlify.app/" target="_blank">ZenWe</a>
+          <a href="https://zenwe.netlify.app/" target="_blank" rel="noopener">ZenWe</a>
         </SwiperSlide>
         <SwiperSlide style={{ textAlign: "center" }}>
           <Box
@@ -119,7 +113,7 @@ const slider = () => {
               borderRadius: "19px",
             }}
           />
-          <a href="https://zenwe.netlify.app/" target="_blank">ZenWe</a>
+          <a href="https://zenwe.netlify.app/" target="_blank" rel="noopener">ZenWe</a>
         </SwiperSlide>
       </Swiper>
     </Box>

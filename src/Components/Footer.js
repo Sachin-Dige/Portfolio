@@ -31,21 +31,21 @@ const Footer = () => {
                 <GitHub />
               </IconButton>
             </Link>
-                <Link href="https://www.linkedin.com/in/sachin-dige-725265263/">
+                <Link href="https://www.linkedin.com/in/sachin-dige-725265263/" target="_blank">
                   <IconButton sx={{color:"white",fontSize:"48px",'&:hover': {
                 transform: "scale(1.5)",
               }}}>
                     <LinkedIn />
                   </IconButton>
                 </Link>
-            <Link href="">
+            <Link href="" target="_blank">
               <IconButton sx={{color:"white",fontSize:"48px",'&:hover': {
             transform: "scale(1.5)",
           }}}>
                 <Twitter />
               </IconButton>
             </Link>
-            <Link href="">
+            <Link href="sachin.code45@gmail.com" target="_blank">
               <IconButton sx={{color:"white",fontSize:"48px",'&:hover': {
             transform: "scale(1.5)",
           }}}>
